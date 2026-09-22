@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="activity.js" defer></script>
-    <title>Document</title>
-</head>
-<body>
-    <p>
-       Name: <input type="text" id="name">
-       <br>
-       Age: <input type="number" id="age">
-       <br>
-       School Member: <input type="checkbox" id="schoolMember">
-       <br>
-       Coding Club: <input type="radio" name="radioBtn" id="codingClub">
-       <br>
-       Game Design: <input type="radio" name="radioBtn" id="gameDesign">
-       <br>
-       Robotics: <input type="radio" name="radioBtn" id="robotics">
-    </p>
-    <button onclick="dothing()" id="registerBtn">Register</button>
-    <p id="whereTextGo"></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="activity.js" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+        <br>
+        <label for="-5">School Member:</label>
+        <input type="checkbox" value="-5" id="schoolMember">
+        <br>
+        <label for="20">Coding Club:</label>
+        <input type="radio" name="radioBtn" value="Coding Club" id="codingClub">
+        <br>
+        <label for="25">Game Design:</label>
+        <input type="radio" name="radioBtn" value="Game Design" id="gameDesign">
+        <br>
+        <label for="30">Robotics:</label>
+        <input type="radio" name="radioBtn" value="Robotics" id="robotics">
+        <br>
+        <button onclick="checkEveryThing()" id="registerBtn">Register</button>
+        <p id="whereTextGo"></p>
 </body>
 </html>
